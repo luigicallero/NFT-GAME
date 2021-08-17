@@ -1,0 +1,151 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(27, 85, 162);
+  font-family: 'Josefin Sans', sans-serif;  
+  overflow: hidden;
+  
+}
+.App {
+  position: relative;
+  right: .5%;
+  text-align: center;  
+  height: 60vh;
+  width: 20%;  
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(27, 85, 162);
+}
+.header{
+  background-color: rgb(27, 85, 162);
+  color: white;
+  padding-top: 1%;
+  margin-left: 15%;
+}
+.header h1{
+  font-size: 3em;
+  font-weight: bolder;
+}
+.mainboard{
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  
+  justify-content: space-around;
+}
+.board{
+  border:1px solid white;
+  border-radius: 5px;
+  width: 75%;
+  height: 80vh;
+  
+}
+.img{
+  width: 100%;
+  height: 100vh;  
+  background-repeat: no-repeat;  
+  background-size: cover; 
+  background-image: url('./img/bg-intro.jpg');
+  z-index: -100;
+}
+.board h3{
+  z-index: 100;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  color:white;
+  font-size: 4rem;
+  background: transparent;
+}
+.players{
+  position: absolute;
+  display: flex;
+  left: 20%;
+  top: 50%;
+  width: 30%;  
+  z-index: 200;
+  justify-content: space-around;
+  background:transparent;
+}
+
+.play-div1{
+  width: 180px;
+  height: 200px;  
+  z-index: 200; 
+  background-image: url('./img/goose.png'); 
+  background-size: cover;
+  box-shadow: -5px 5px 10px black;
+}
+.play-div2{
+  width: 180px;
+  height: 200px;  
+  z-index: 200; 
+  background-image: url('./img/coraje.jpeg'); 
+  background-size: cover;
+  box-shadow: -5px 5px 10px black;
+}
+
+.play1{
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.play2{
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+}
+.btn{
+  color:white;
+  background-color: silver;
+  width: 110px;
+  height: 25px;
+  margin: 2%;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: darkslateblue;
+  cursor: pointer;
+}
+
+
+@media(min-width:768px){
+  .board-bg h3{
+    font-size: 2em;    
+    left:30%
+  }
+  .players{
+    left: 10%;
+    width:50%;
+  }
+  .player1,.player2{
+    width: 100px;
+    height: 150px;
+  }
+
+}
+@media(min-width:480px){
+  .board-bg h3{
+    font-size: 2em;    
+    left:30%
+  }
+  .players{
+    left: 10%;
+    width:50%;
+  }
+  .player1,.player2{
+    width: 100px;
+    height: 150px;
+  }
+  .header{    
+    margin-left: 20%;
+  }
+  
+
+}

@@ -1,0 +1,29 @@
+.Game {
+  margin: 20px auto;  
+}
+
+.Game-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Game button {
+  padding: 10px 20px;
+  width: 110px;
+  border: 0;
+  background: black;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.Game button:hover {
+  background-color: darkslateblue;
+  cursor: pointer;
+}
+@media(min-width:480px){
+  .Game Button{
+    width: 90px;
+  }
+}
