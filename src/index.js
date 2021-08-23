@@ -4,7 +4,7 @@ import "./styles.css";
 import Game from "./game";
 import Header from "./header";
 import Board from "./board";
-import {BrowserRouter as Router,Switch,Route,Link,NavLink} from "react-router-dom";
+import {BrowserRouter as Router,Link} from "react-router-dom";
 
 function App() {
   return (

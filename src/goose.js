@@ -1,12 +1,12 @@
 import React from 'react';
 import './player2.css'
-import goose from './img/goose-1.png';
+import goose from './img/goose.gif';
 
 
 const Goose = () => {
     return(        
         <div>
-            <img src={goose} />
+            <img src={goose} alt='goose'/>
         </div>        
     )
 }

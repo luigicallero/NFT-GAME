@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 import Player1 from './player1';
 import Player2 from './player2';
-import {BrowserRouter as Router,Switch,Route,Link,NavLink} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Init from './init';
 
 

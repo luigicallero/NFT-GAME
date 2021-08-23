@@ -20,47 +20,88 @@ img{
 }
 @keyframes move {
   0%{
-    top: 200px; left: 0px;
+    top: 200px; left: 0px;transform: rotatez(0deg);
   }
-  25%{
-    top: 130px; left:200px;
+  22%{
+    top: 120px; left:160px;
   }
-  41%{
-    top:200px;left:450px;
+  33%{
+    transform: rotatez(60deg);
   }
-  43%{
-    top:290px;left:470px;
+  40%{
+    top: 200px; left: 320px;
   }
-  55%{
-    top:320px;left:550px;
+  45%{
+    transform: rotatez(-5deg);
   }
-  59%{
-    top:250px;left:600px;
+  50%{
+      top:180px; left: 430px;
+  }
+  52%{
+    transform: rotatez(60deg);
+  }
+  54%{
+    top: 220px; left: 450px
+  }
+  56%{
+    transform: rotatez(80deg);
+  }
+  60%{
+    top:350px; left: 490px;
   }
   62%{
-    top: 280px;left: 630px;
-  }
-  63%{
-    top: 260px;left: 630px;
+    transform: rotatez(-20deg);
   }
   64%{
-    top: 260px;left: 690px;
+    left:540px; 
   }
-  65%{
-    top: 280px;left: 690px;
+  66%{
+    top: 280px; left:610px;
   }
-  67%{
-    top: 290px;left: 790px;
+  68%{
+    transform: rotatez(10deg);
+  }
+  70%{
+    top: 250px;left:650px;
   }
   72%{
-    top: 320px;left: 890px;
+    top: 250px;left:690px;
   }
-  87%{
-    top: 220px;left: 1050px;
+  74%{
+    transform: rotateZ(50deg);
+  }
+  76%{
+    top: 280px;left:710px;
+  }
+  79%{
+  transform: rotateZ(20deg);
+  }
+  82%{
+    left: 780px;
+  }
+  84%{
+    transform: rotateZ(-10deg);
+  }
+  86%{
+    top: 270px; left: 880px; transform: rotateZ(-20deg);
+  }
+  88%{
+    left: 980px;
+  }
+  90%{
+    transform: rotateZ(-50deg);
+  }
+  94%{
+    top: 230px; left: 1050px;
+  }
+  96%{
+    transform: rotateZ(-20deg); top: 190px;
+  }
+  98%{
+    transform: rotateZ(0deg); left: 1100px;
   }
   100%{
-    top: 200px;left: 1140px;
+    left: 1130px;
   }
-  
   
 }

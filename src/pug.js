@@ -1,12 +1,12 @@
 import React from 'react';
 import './player2.css'
-import coraje from './img/coraje.png';
+import coraje from './img/pug-run.gif';
 
 
 const Pug = () => {
     return(        
         <div>
-            <img src={coraje} />
+            <img src={coraje} alt='pug' />
         </div>        
     )
 }
