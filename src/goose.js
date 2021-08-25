@@ -6,7 +6,7 @@ import goose from './img/goose.gif';
 const Goose = () => {
     return(        
         <div>
-            <img src={goose} alt='goose'/>
+            <img className='imgplayer' src={goose} alt='goose'/>
         </div>        
     )
 }

@@ -1,19 +1,64 @@
+.fancy-btn{
+  width: 80px;
+  height: 30px;    
+  background-color: darkslateblue;
+  padding-left: 10px;
+  padding-top: 8px;
+  border-radius: 15px;
+  border: 1px solid whitesmoke;
+}
+.btn-link{
+  background: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+  transition-delay: 0.3s;
+}
+.fancy-btn:hover{
+  background-color: whitesmoke;
+  border: 1px solid darkslateblue;    
+}
+.btn-link:hover{
+  color: darkslateblue;
+}
+.position-g{
+  position: relative;
+  top: 400px;
+  left: 780px;
+}
+.instructions{
+  width: 200px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+  background-color: darkslateblue;
+  border-radius: 15px;
+  border: 1px solid whitesmoke;
+  position: relative;
+  top: 180px;
+  left: 30px;
+}
+.instructions h4{
+  background-color: transparent;
+}
+
 .boardplayer{  
   width: 100%;
   height: 100vh;  
-  background-image: url('original.jpg');
+  background-image: url('./img/original.jpg');
   background-size: cover;
-  z-index: -10000;
-  
+  z-index: -10000;  
 }
-img{
+
+.imgplayer{
   position:absolute;
   top:200px;
   width: 100px;
   height: auto;
   background: transparent;
   animation-name: move;
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;

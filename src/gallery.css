@@ -1,0 +1,28 @@
+.gallery{
+    background: linear-gradient(90deg,orange, brown);
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+.gallery h1{
+    background: transparent;
+    position: absolute;
+    padding-top: 2%;
+    color: whitesmoke;
+}
+.gallery a{
+    background: transparent;
+    margin-top: 10%;
+    padding: 1%;    
+}
+
+.img-gal{
+    height: 35%;   
+    background: transparent;
+    border-radius: 5px;    
+}
+.img2{
+    background-color: blue;
+}

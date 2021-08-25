@@ -4,11 +4,11 @@ import "./styles.css";
 import Game from "./game";
 import Header from "./header";
 import Board from "./board";
-import {BrowserRouter as Router,Link} from "react-router-dom";
+
 
 function App() {
   return (
-    <Router>
+    <div>
     <Header/>
     <div className='mainboard'>
       <div className='board'>        
@@ -16,12 +16,18 @@ function App() {
       </div>
       <div className="App">
         <Game />
-        <button className="btn">Wallet</button><br/>
-        <Link><button className="btn">Pick Image</button></Link><br/>
-        <Link><button className="btn">Mint!!</button></Link>
+        <button className="btn">Wallet</button><br/>       
+        <button className="btn">Mint!!</button><br/>
+        <button className='btn '><a href='https://indianameregone.github.io/portfolio/main.html'>About us</a></button>
+       
+        <br/><br/>
+        <div className='indorse'>
+          <a href='https://indorse.io/'>Indorse</a><br/><br/>
+          <a href='https://ipfs.io/'>IPFS</a>
+        </div>
       </div>
+    </div>    
     </div>
-    </Router>
   );
 }
 
