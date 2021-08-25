@@ -4,6 +4,9 @@ import "./styles.css";
 import Game from "./game";
 import Header from "./header";
 import Board from "./board";
+import facebook from './img/facebook.svg'
+import twitter from './img/twitter.svg'
+import instagram from './img/instagram.svg'
 
 
 function App() {
@@ -14,6 +17,7 @@ function App() {
       <div className='board'>        
         <Board/>
       </div>
+      
       <div className="App">
         <Game/>
         <div className='btn-panel'>
@@ -24,9 +28,17 @@ function App() {
         <br/><br/>
         <div className='indorse'>
           <a href='https://indorse.io/'>Indorse</a><br/><br/>
-          <a href='https://ipfs.io/'>IPFS</a>
-        </div>
+          <a href='https://ipfs.io/'>IPFS</a><br/><br/>
+          <img src={facebook} className='social-m'/>
+          <img src={twitter} className='social-m'/>
+          <img src={instagram } className='social-m'/> 
+        </div>     
+         
       </div>
+      
+        
+      
+      
     </div>    
     </div>
   );

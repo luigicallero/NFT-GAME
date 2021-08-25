@@ -7,15 +7,20 @@
   overflow: hidden;
   
 }
+
 .App {
   position: relative;
   right: .5%;
   text-align: center;  
-  height: 60vh;
+  height: 70vh;
   width: 20%;  
   border: 1px solid white;
   border-radius: 5px;
   background-color: rgb(27, 85, 162);
+}
+.social-m{
+  width: 50px;
+  padding: 3px;
 }
 .header{
   background-color: rgb(27, 85, 162);
@@ -41,9 +46,10 @@
 }
 .indorse{  
   top:360px;
-  left: 35%;
+  left: 25%;
   position: absolute;
   padding-bottom: 5px;
+  justify-content: center;
 }
 .indorse a{
   font-weight: bold;
