@@ -15,11 +15,12 @@ function App() {
         <Board/>
       </div>
       <div className="App">
-        <Game />
-        <button className="btn">Wallet</button><br/>       
-        <button className="btn">Mint!!</button><br/>
-        <button className='btn '><a href='https://indianameregone.github.io/portfolio/main.html'>About us</a></button>
-       
+        <Game/>
+        <div className='btn-panel'>
+          <button className="btn">Wallet</button><br/>       
+          <button className="btn">Mint!!</button><br/>
+          <button className='btn '><a href='https://indianameregone.github.io/portfolio/main.html'>About us</a></button>
+       </div>
         <br/><br/>
         <div className='indorse'>
           <a href='https://indorse.io/'>Indorse</a><br/><br/>

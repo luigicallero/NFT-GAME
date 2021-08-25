@@ -51,14 +51,14 @@
   z-index: -10000;  
 }
 
-.imgplayer{
+.imgplayer2{
   position:absolute;
   top:200px;
   width: 100px;
   height: auto;
   background: transparent;
   animation-name: move;
-  animation-duration: 8s;
+  animation-duration: 10s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
@@ -71,7 +71,7 @@
     top: 120px; left:160px;
   }
   33%{
-    transform: rotatez(60deg);
+    transform: rotatez(40deg);
   }
   40%{
     top: 200px; left: 320px;
@@ -92,13 +92,13 @@
     transform: rotatez(80deg);
   }
   60%{
-    top:350px; left: 490px;
+    top:300px; left: 490px;
   }
   62%{
-    transform: rotatez(-20deg);
+    transform: rotatez(-10deg);
   }
   64%{
-    left:540px; 
+    left:540px; top:300px;
   }
   66%{
     top: 280px; left:610px;
@@ -122,16 +122,16 @@
   transform: rotateZ(20deg);
   }
   82%{
-    left: 780px;
+    left: 780px; top:280px;
   }
   84%{
-    transform: rotateZ(-10deg);
+    transform: rotateZ(0deg);
   }
   86%{
-    top: 270px; left: 880px; transform: rotateZ(-20deg);
+    top: 300px; left: 860px; transform: rotateZ(-20deg);
   }
   88%{
-    left: 980px;
+    left: 940px;
   }
   90%{
     transform: rotateZ(-50deg);
@@ -146,7 +146,7 @@
     transform: rotateZ(0deg); left: 1100px;
   }
   100%{
-    left: 1130px;
+    left: 1146px;
   }
   
 }

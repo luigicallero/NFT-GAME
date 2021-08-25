@@ -1,12 +1,12 @@
 import React from 'react';
-import './player2.css'
+import './player1.css'
 import goose from './img/goose.gif';
 
 
 const Goose = () => {
     return(        
         <div>
-            <img className='imgplayer' src={goose} alt='goose'/>
+            <img className='imgplayer1' src={goose} alt='goose'/>
         </div>        
     )
 }
