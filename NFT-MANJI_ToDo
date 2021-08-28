@@ -1,0 +1,56 @@
+NFT-MANJI
+
+Juancho:
+hacer que todo el personaje sea un botón, no solo el nombre del NFT
+anunciantes y redes sociales más abajo de los botones
+botón para volver a la pantalla inicial
+
+Yo:
+Disable the NFT until the Metamask is connected (Disabled - Grey)
+Enable NFT
+
+
+### Documentación para el NFT-Boardgame
+You can pick any NFT from the Gallery (initial screen)
+NFTs are initially minted and for sale in OpenSea.
+What you get by owning it? The right to use it to play whenever you want.
+You can use an NFT owned by someone else for the game but as soon as the owner uses it for the game you loose the NFT even if you were not able to complete that game.
+Royalty will be set on the NFTs minted. Royalties will be split: 50% for ITMandalorians and 50% for Boardgame. BoardGame contract royalty will be used to create a liquidity pool (to be used for Game awards after it reaches 1 ETH.  
+
+NFT Characteristics:
+Coraje: Corage 20%
+Goose: Corage 90%
+
+Game Rules:
+Position 3 Ghost: Coraje moves 3 steps back / Goose moves 1 step back
+Position 6 Farmer: Coraje moves 2 steps forward / Goose moves 2 step back
+Position 9 Lake: Coraje moves 1 step back / Goose moves 3 steps forward
+
+### To improve:
+Dize with chainlink
+
+### NFT creation:
+https://github.com/luigicallero/NFTMANJI.git
+
+### GAME:
+git clone https://github.com/indianameregone/NFT-Game
+cd NFT-Game/
+npm install
+
+
+Tutorial from Mexican: 
+https://github.com/ernestognw/web3-intro/blob/completed
+
+> Adding Web3
+npm install web3
+
+> Adding Contract info:
+Other Documentation:
+https://web3js.readthedocs.io/en/v1.4.0/web3-eth-contract.html#new-contract
+https://ethereum.org/en/developers/tutorials/calling-a-smart-contract-from-javascript/
+NFTMANJI Contract Address: 0x5239cE62Ceed3c5a69BACCa7a824A8e127D907aC
+
+Future / Not requirement:
+- Add wallet info to page even after page refresh (without having to click on "Wallet")
+
+

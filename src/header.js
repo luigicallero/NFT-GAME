@@ -6,7 +6,7 @@ function Header(){
         <div>
         <div className='header'>
         <h1>NFT-MANJI</h1>
-        </div>
+        <strong>Wallet Address:</strong><p id="walletAddressBox">0X0</p></div>
         </div>
     )
 }
