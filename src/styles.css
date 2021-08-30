@@ -89,7 +89,7 @@
   background:transparent;
 }
 
-.play-div1{
+#player1Link{  
   width: 180px;
   height: 200px;  
   z-index: 200; 
@@ -97,7 +97,7 @@
   background-size: cover;
   box-shadow: -5px 5px 10px black;
 }
-.play-div2{
+#player2Link{
   width: 180px;
   height: 200px;  
   z-index: 200; 

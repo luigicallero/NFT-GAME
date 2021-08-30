@@ -7,6 +7,18 @@
     border-radius: 15px;
     border: 1px solid whitesmoke;
 }
+.btn-back{
+    position:relative;
+    top:55%;
+    left:30%;
+    width: 250px;
+    height: 30px;    
+    background-color: darkslateblue;
+    color:white;
+    padding:5px;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+}
 .btn-link{
     background: transparent;
     text-decoration: none;

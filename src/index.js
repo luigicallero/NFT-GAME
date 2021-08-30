@@ -1,4 +1,4 @@
-import React, { Component }  from "react";
+import React, { Component, useState }  from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 import Game from "./game";
@@ -28,11 +28,13 @@ window.onload = () => {
   const account = document.getElementById('walletAddressBox');
   const player1Link = document.getElementById('player1Link');
   const player2Link = document.getElementById('player2Link');
+ console.log(player1Link);
 
 
   // Initial State of things
-  player1Link.innerText = "Button Disabled";
-  player2Link.innerText = "Button Disabled";
+  //player1Link.setAttribute.href="/player1";
+  player1Link.innerText = "";
+  player2Link.innerText = "";
   
   // if already connected to Web3 provider bring account data:
 
@@ -91,12 +93,19 @@ window.onload = () => {
         walletAddress = web3.utils.toChecksumAddress(accounts[0]); // to bring the wallet address back to checksum format (mixed-case)
         account.innerText = walletAddress;
         if ( tokenOwner0 == walletAddress ) {
-          player1Link.innerText = "Enabled button Player1"; //  habilitar el botón para el player 1    
+          //player1Link.setAttribute.href ='/player1';
+          player1Link.innerText = "Play";
+          console.log(player1Link); //  habilitar el botón para el player 1    
+        }
+        else{
+          player1Link.innerText = "";
         }
         if ( tokenOwner1 == walletAddress ) {
-          player2Link.innerText = "Enabled button Player2"; //  habilitar el botón para el player 2    
+          player2Link.innerText = "Play"; //  habilitar el botón para el player 2    
         }
-
+        else {
+          player2Link.innerText = "";
+        }
 
         // Sending NFT
         // another way:
@@ -172,7 +181,7 @@ class App extends Component {
           <Game/>
           <div className='btn-panel'>
             <button id="wallet" className="btn">Wallet</button><br/>    
-            <button id="accountBox" className="btn">Mint!!</button><br/>
+            
             <button className='btn '><a href='https://indianameregone.github.io/portfolio/main.html'>About us</a></button>
          </div>
           <br/><br/>

@@ -8,16 +8,18 @@ function Init(){
     return(
         <div className='players'>  
                       
-                <div className="play-div1">            
-                    <Link to="/player1" className='btn-link' id="player1Link">
-                        <h4 className='play1'>Player 1</h4>
-                    </Link> 
-                </div>
-                <div className="play-div2">
-                    <Link to="/player2" className='btn-link' id="player2Link">
-                        <h4 className='play2'>Player 2</h4>
+                            
+                    <Link to="#" className='btn-link' id="player1Link">
+                    <div className="play-div1">
+                        <h4 className='play1'></h4>
+                    </div>
+                    </Link>
+                    <Link to="/#" className='btn-link' id="player2Link">
+                    <div className="play-div2">
+                        <h4 className='play2'></h4>
+                    </div>    
                     </Link>   
-                </div>            
+                        
         </div>
     )
 }
