@@ -4,10 +4,12 @@ Juancho:
 hacer que todo el personaje sea un botón, no solo el nombre del NFT
 anunciantes y redes sociales más abajo de los botones
 botón para volver a la pantalla inicial
+Demo boton en caso de que no ownee ningún NFT
 
 Yo:
-Disable the NFT until the Metamask is connected (Disabled - Grey)
-Enable NFT
+Disable the NFT until the Metamask is connected
+Enable NFT >> issues with wallet address (lower case)
+
 
 
 ### Documentación para el NFT-Boardgame
@@ -48,9 +50,13 @@ npm install web3
 Other Documentation:
 https://web3js.readthedocs.io/en/v1.4.0/web3-eth-contract.html#new-contract
 https://ethereum.org/en/developers/tutorials/calling-a-smart-contract-from-javascript/
+https://docs.openzeppelin.com/contracts/2.x/api/token/erc721#IERC721-safeTransferFrom-address-address-uint256-bytes-
 NFTMANJI Contract Address: 0x5239cE62Ceed3c5a69BACCa7a824A8e127D907aC
 
 Future / Not requirement:
 - Add wallet info to page even after page refresh (without having to click on "Wallet")
 
+> Sending NFT to another person: 0xB02D2Abd985a5fa31B45D87a9297Bd22f8BaD931
+- On Metamask add the NFT contract (0x5239cE62Ceed3c5a69BACCa7a824A8e127D907aC) on both owner and receiver accounts
+- On Metamask From onwer account send token to receiver
 
